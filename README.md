@@ -25,6 +25,7 @@ This code presents a step-by-step guide for setting up Elasticsearch indexing an
 4) Search Implementation: The code performs document searches using a combination of Elasticsearch and the trained Word2Vec model. It analyzes user-provided search queries, expands them by finding similar words in the model's vocabulary, and then uses the Elasticsearch index to retrieve relevant documents based on the expanded queries.
 
 Workflow
+--------------------------------------------------------------------------------------
 1)Index Creation: 
     The code sets up an Elasticsearch index with the desired text analysis settings and mappings. This index defines how text will be processed and stored for efficient retrieval.
 
